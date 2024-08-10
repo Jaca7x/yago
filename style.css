@@ -1,0 +1,37 @@
+/* styles.css */
+body {
+    background-color: #fff; /* Cor de fundo padrão */
+    color: #000000; /* Cor do texto padrão */
+}
+
+.dark-mode {
+    background-color: #000000; /* Cor de fundo no modo noturno */
+    color: #fff; /* Cor do texto no modo noturno */
+}
+
+.btn{
+    
+    height: 1rem;
+    font-size: 30px;
+    padding: 20px 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.btn2{
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000000  ;
+    background-color: #000000;
+border: none;
+}
+
+.btn2:hover{
+background-color: #fff;
+color: #000000;
+transition: all 10s ease;
+}
